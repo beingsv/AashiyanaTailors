@@ -1,0 +1,63 @@
+.wedding
+{
+    margin-top: 200px;
+    font-family: "Trebuchet MS",Times,serif;
+}
+.wedding h1
+{
+    font-size: 45px;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+.wedd-img
+{
+    margin: 0 20px;
+    background: url('assets/WO1.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+.wedd-line
+{
+    display: flex;
+}
+.wedd-line p
+{
+    text-align: center;
+    margin: 120px 100px;
+    color: whitesmoke;
+    font-size: 30px;  
+    line-height: 1.8;
+    word-spacing: 5px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.wedd-line img
+{
+    margin: 20px 20px;
+}
+.wedd-pics
+{
+    display: flex;
+    margin: 0 20px 30px;
+}
+.wedd-pics img
+{
+    padding: 0 10px;
+}
+@media only screen and (min-width: 360px) and (max-width: 768px)
+{
+    .wedding h1
+    {
+        font-size: 25px;
+        text-shadow: 1px 1px 2px #000000;
+    }
+    .wedd-img
+    {
+        margin: 0 10px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+}

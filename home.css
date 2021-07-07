@@ -1,0 +1,94 @@
+.head
+{
+    padding: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head h1.name
+{
+    font-family: "Trebuchet MS",Times,serif;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    animation: type 4s;
+    overflow: hidden;
+    white-space: nowrap;
+    text-shadow: 2px 2px 4px #000000;
+}
+@keyframes type
+{
+    0%{width: 0ch;}
+    100%{width: 13.7ch;}
+}
+.container
+{
+    margin: 0 auto;
+    font-size: 24px;
+    padding: 25px;
+    font-family: "Trebuchet MS",Times,serif;
+}
+.container p.work
+{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.parallax
+{
+    min-height: 400px;
+    background: transparent;
+}
+.info
+{
+    z-index: 2;
+    position: relative;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+h2.info
+{
+    padding: 130px;
+    padding-bottom: 0px;
+    text-decoration: underline;
+}
+p.info
+{
+    padding: 0px 35px 20px 35px;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px)
+{ 
+    .head
+    {
+        padding: 190px 5px;
+        display: grid;
+    }
+    .headlogo
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .head h1.name
+    {
+        font-size: 2rem;
+    }
+    .container
+    {
+        margin: 0;
+        font-size: 15px;
+        padding: 15px;
+    }
+    .container p.work
+    {
+    font-size: 25px;
+    }
+    h2.info
+    {
+        padding: 200px 20px;
+        padding-bottom:0px;
+        font-size: 20px;
+    }
+}
